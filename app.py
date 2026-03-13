@@ -1,4 +1,11 @@
 import streamlit as st
+
+st.markdown("""
+<meta name="google-site-verification" content="<meta name="google-site-verification" content="oYTxFSyfzgxw2P0sGBcZhBwL2qPtvbi57JgbdlVrQMA" />" />
+""", unsafe_allow_html=True)
+
+st.title("グラフ作成アプリ")
+import streamlit as st
 import matplotlib.pyplot as plt
 import io
 
